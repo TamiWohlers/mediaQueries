@@ -1,0 +1,101 @@
+html, body{
+	height:100%;
+	width: 100%;
+	margin:0;
+	padding:0;
+}
+
+.menu{
+	display:flex;
+	/*float:right;*/
+	justify-content: space-between;
+	margin: 0 20px;
+}
+
+.m {
+	font-family:"jaf-bernino-sans",
+	"Lucida Grande","Lucida Sans Unicode",
+	"Lucida Sans",Geneva,Verdana,
+	sans-serif;
+	font-size:30px;
+	float:left;
+}
+
+.Meta{
+	margin: 0 20px;
+	font-size:30px;
+	border: solid black 2px;
+}
+
+.Published {
+	order:1;
+}
+
+.searchMed{
+	order:2;
+
+}
+
+.Signin {
+	order:3;
+}
+
+.mainBody {
+	width:80%;
+	margin: 0px auto;
+	/*clear:both;*/
+}
+
+.wrapper {
+	min-height: 100%;
+}
+
+.header {
+	margin: 20px auto;
+	text-align: center;
+}
+
+p {
+	font-size:22px;
+}
+
+h1, p {
+	font-family:"jaf-bernino-sans",
+	"Lucida Grande","Lucida Sans Unicode",
+	"Lucida Sans", Geneva, Verdana,
+	sans-serif;
+}
+
+@media (max-width:600px) {
+    .meta {
+    	margin: 0 15px;
+    	font-size:20px;
+    	border: solid 1px black;
+    }
+    h1 {
+    	font-size:18px;
+    }
+    .mainBody{
+    	font-size:16px;
+    }
+    .foot {
+    	display:none;
+    }
+}
+
+.foot {
+	position: fixed;
+	background-color:white;
+	bottom: 0;
+	right:0;
+	height 142px;
+	display:flex;
+	/*float:right;*/
+	justify-content: space-between;
+	margin: 0 20px;
+}
+
+.image {
+    height: 10px
+    width:10px;
+}
